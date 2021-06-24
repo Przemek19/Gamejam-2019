@@ -35,8 +35,6 @@ function love.draw()
   if developer then drawDebug() end
 end
 
--- newDialogue({{speaker = "Policjant", text = "Siema jestem pedalem"}, {speaker = "fiut", text="tez jestem"}, {speaker = "xoxo", text="123321"}})
-
 gameSize = 1 -- 1 do 4
 blockSize = 64
 pedSize = blockSize
